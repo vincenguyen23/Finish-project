@@ -1,0 +1,60 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 4
+   Review Assignment
+
+   Cycle Pathology Style Sheet
+   Author: Vincent Nguyen
+   Date:   2.8.17
+
+   Filename:         race.css
+   Supporting Files:
+
+*/
+
+header, article, aside, figure, figcaption, hgroup, section, nav {
+  display: block;
+}
+
+* {
+  font-family: Verdana, Geneva, or sans-serif;
+  font-size: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+nav a{
+  text-decoration: none;
+}
+
+nav.horizontalNAV li a {
+  width: 80%;
+  margin-left: 20%;
+  float: left;
+  width: 20%;
+  background-color: rgb(49, 38, 31);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 85%;
+}
+
+nav.horizontalNAV li a:hover {
+  color: white;
+}
+
+body {
+  position: relative;
+  height: 1000px;
+  width: 1400px;
+}
+
+header {
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  width: 20%;
+  background-color: black;
+  padding-bottom: 500px;
+}
